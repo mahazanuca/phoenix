@@ -1,0 +1,5 @@
+nginx:
+  build: .
+  command: nginx
+  ports:
+    - "80:80"
